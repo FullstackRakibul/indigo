@@ -7,11 +7,11 @@ const ModulesRoutes = () => {
   return (
     <Routes>
       <Route
-        path="/auth"
+        path="/auth/*"
         element={<AuthRoutes />}
       />
       <Route
-        path="/guest"
+        path="/guest/*"
         element={<GuestRoutes />}
       />
     </Routes>
