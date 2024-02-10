@@ -1,8 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ModulesRoutes from "./v1/routes/modules";
 
 function App() {
-  return <>App.</>;
+  return (
+    <Router>
+      <Routes>
+        <Route
+          path="/*"
+          element={<ModulesRoutes />}
+        />
+        {/* Other routes, e.g., dynamicRoutes */}
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
