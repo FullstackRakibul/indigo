@@ -5,11 +5,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route
-          path="/*"
-          element={<ModulesRoutes />}
-        />
-        {/* Other routes, e.g., dynamicRoutes */}
+        <Route path="/*" element={<ModulesRoutes />} />
+        {/* Other routes, e.g., create v2 and add routes here. */}
       </Routes>
     </Router>
   );

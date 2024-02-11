@@ -1,4 +1,8 @@
 const Login = () => {
-  return <div>Login</div>;
+  return (
+    <>
+      <h1 className="text-3xl font-bold underline">Login Page!</h1>
+    </>
+  );
 };
 export default Login;
